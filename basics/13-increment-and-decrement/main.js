@@ -14,7 +14,7 @@
 // ++num;
 // console.log(num);
 
-// 後置演算子のデクリメント
+// 前置演算子のデクリメント
 // --num;
 // console.log(num);
 
