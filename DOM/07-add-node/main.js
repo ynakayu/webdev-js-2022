@@ -4,5 +4,6 @@ e.addEventListener('click', () => {
   const li = document.createElement('li');
   const text = document.createTextNode('test');
   li.appendChild(text);
-  list.appendChild(li); // <li>test</li>
+  const listElement = document.getElementById('list');
+  listElement.appendChild(li); // <li>test</li>
 }, false);
